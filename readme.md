@@ -3,7 +3,7 @@
 > Form Wave Animation
 
 ### [Demo](http://form-wave-animation-ab.surge.sh/)
-[![IMAGE ALT TEXT HERE](./uploads/screen.png)](./uploads/video.mp4)
+[![IMAGE ALT TEXT HERE](./uploads/screen.png)](https://skr.sh/v5ck7YqfdKa?a)
 
 ### Get started
 
