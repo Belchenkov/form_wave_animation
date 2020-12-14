@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #31738d;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+  font-family: 'Amita', cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,4 +16,71 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, .4);
+  padding: 20px 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(255, 255, 255, .4);
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container a {
+  text-decoration: none;
+  color: #bac126;
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input {
+  font-family: 'Amita', cursive;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+}
+
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  background: #9db777;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  text-shadow: none;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(.98);
+}
+
+.text {
+  margin-top: 30px;
 }
