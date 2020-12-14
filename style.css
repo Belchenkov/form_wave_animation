@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap');
 
+:root {
+  --primary-color: #31738d;
+  --secondary-color: #9db777;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #31738d;
+  background-color: var(--primary-color);
   color: #fff;
   text-shadow: 0 0 5px rgba(0, 0, 0, .4);
   font-family: 'Amita', cursive;
@@ -32,7 +37,7 @@ body {
 
 .container a {
   text-decoration: none;
-  color: #bac126;
+  color: var(--secondary-color);
 }
 
 .form-control {
@@ -57,13 +62,33 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
+  border-bottom-color: var(--secondary-color);
+}
+
+.form-control label {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.form-control label span {
+  display: inline-block;
+  font-size: 18px;
+  min-width: 5px;
+  transition: transform .3s cubic-bezier(.68, -.55, .265, 1.55);
+}
+
+.form-control input:focus + label span,
+.form-control input:valid + label span {
+  color: var(--secondary-color);
+  transform: translateY(-30px);
 }
 
 .btn {
   display: inline-block;
   cursor: pointer;
   width: 100%;
-  background: #9db777;
+  background: var(--secondary-color);
   padding: 15px;
   font-family: inherit;
   font-size: 16px;
