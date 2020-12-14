@@ -2,7 +2,8 @@
 
 > Form Wave Animation
 
-### [Demo]()
+### [Demo](http://form-wave-animation-ab.surge.sh/)
+[![IMAGE ALT TEXT HERE](./uploads/screen.png)](./uploads/video.mp4)
 
 ### Get started
 
@@ -19,3 +20,5 @@ npm i -g live-server
 ```shell script
 live-server
 ```
+
+
